@@ -1,2 +1,2 @@
 # Demo
-https://gurwinder-git.github.io/Responsive-Webtemplate/
+https://raghavkapor.github.io/Responsive-template/
