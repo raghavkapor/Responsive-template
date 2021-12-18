@@ -1,0 +1,237 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Rubik', sans-serif;
+    /* overflow: hidden; */
+}
+#navbar{
+    /* position: relative; */
+    position: fixed;
+    width: 100%;
+    display:flex;
+    /* border-bottom: 1px solid rgb(255, 255, 255); */
+    align-items: center;
+    background-color: rgb(0 0 0 / 37%);
+    /* box-shadow: 0px 3px 10px #888888; */
+    z-index: 100;
+}
+
+/* #navbar::before{
+    content: "";
+    background-color: rgb(0 0 0 / 37%);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+} */
+#logoDiv{
+    /* border: solid black 1px; */
+    padding-top: 3px;
+    margin: -9px 22px
+}
+#logo{
+    height: 71px;
+    filter: invert(1);
+    
+    /* border: solid black 1px; */
+
+}
+
+#navUl{
+    display: flex;
+    list-style: none;
+}
+.atag{
+    text-decoration: none;
+    /* border: 1px solid black; */
+    padding: 10px 12px 10px 12px;
+    color: white;
+    margin: 0px 5px;
+    border-radius: 24px;
+}
+.active {
+    background-color: white;
+    color: black;
+    border-radius: 24px;
+}
+.atag:hover {
+    border-radius: 24px;
+    border:1px solid rgb(255, 255, 255);
+}
+
+#home{
+    background-image: url("../img/top.jpg") ;
+    background-size: cover;
+    position: relative;
+    top:0px;
+    padding-top: 110px;
+    padding-bottom: 42px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* border: 1px black solid; */
+}
+
+
+.h-primary,#home p,.btn-primary{
+    /* margin:10px 0px; */
+}
+.h-primary,#home  p{
+    color:white;
+    border-radius: 28px;
+    /* background-color: #a37438b3;; */
+    margin: 3px 0px;
+    padding: 0px 17px;
+}
+.btn-primary{
+    margin: 15px 0px;
+    padding: 9px 23px;
+    background-color: #ffffffab;
+    border: none;
+    border-radius: 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    
+}
+.btn-primary:hover{
+    background-color: #ffffff;
+    cursor: pointer;
+    
+}
+.h-primary{
+    font-size: 3rem;
+}
+
+/* #services-container,.services,#services-container h1, .card img, .card h2,.card p, .card,.services{
+    border: 1px solid black;
+} */
+
+.center{
+    text-align: center;
+}
+.services{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 21px 0px;
+}
+.card h2,.card p{
+    margin: 8px 0px;
+}
+.card p{
+    padding: 0px 50px;
+}
+.card img{
+    height: 133px;
+    margin: 9px auto;
+    display: block;
+}
+
+.card {
+    border: 1px solid black;
+    margin: 0px 11px;
+    height: auto;
+    border-radius: 33px;
+    background-color: #fff3e4;
+}
+
+.card:hover{
+    /* border: none; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+#services-container {
+    margin: 29px 25px;
+}
+
+#client-sec,.title,.client-logo,.client-logo img{
+    /* border: 1px solid black; */
+}
+
+#client-sec{
+    background-image: url(../img/bg1.jpg);
+    background-size: 447% 803%;
+}
+.client-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-repeat: no-repeat; */
+    padding-bottom: 52px;
+
+    
+}
+.heading{
+    padding: 25px 0px;
+}
+
+.client-logo img{
+    height: 100px;
+    margin: 0px 13px;
+    
+}
+.head-size{
+    font-size: 2rem;
+}
+
+#form-container,.formDiv, .formDiv form,form input,form label{
+    /* border:1px solid black; */
+}
+
+.formDiv form{
+    display:flex;
+    flex-direction: column;
+}
+#form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/bg2.png);
+    background-size: 33% 78%;
+    padding-bottom: 40px;
+
+}
+
+form input,form label {
+    height: 28px;
+    width: 427px;
+}
+
+form input {
+    margin-bottom: 12px;
+    border: none;
+    border-radius: 4px;
+    padding-left:10px;
+}
+form textarea{
+    margin-bottom: 12px;
+    border: none;
+    border-radius: 4px;
+    width: auto;
+}
+
+.center button {
+    width: 119px;
+    height: 36px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 33px;
+}
+
+.center button:hover {
+    cursor: pointer;
+    color:white;
+    background-color: black;
+}
+
+#footer-container{
+    padding: 18px 0px;
+    background-color: black;
+    
+}
+
+#footer-container h6{
+    color: white;
+}
